@@ -26,6 +26,10 @@ module.exports = {
     hardhat: {
       chainId: 555,
     },
+    bsc_test: {
+      url: process.env.BSCTEST,
+      accounts: [process.env.PRIVATE_KEY_TEST],
+    },
     polygon_main: {
       url: process.env.POLYGONMAIN,
       accounts: [process.env.PRIVATE_KEY],

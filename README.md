@@ -1,8 +1,6 @@
-# Sample Hardhat Project
+# A Contract that helps refugee take donation using worldcoin for identification
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
+This project simplifies charity in the web 3 ecosystem utilizing world coin and ethereum technologies to achieve a decentralized donation system
 
 ```shell
 npx hardhat help
