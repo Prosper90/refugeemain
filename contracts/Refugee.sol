@@ -21,7 +21,7 @@ contract Refugee is Ownable {
     event FundsWithdrawn(uint256 id, uint256 amount);
     event DonationRemoved(uint256 id);
 
-    constructor(address usdcTokenAddress) {
+    constructor(address usdcTokenAddress) Ownable(msg.sender) {
         usdcToken = IERC20(usdcTokenAddress);
         nextDonationID = 0;
     }

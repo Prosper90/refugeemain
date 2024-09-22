@@ -30,8 +30,8 @@ module.exports = {
       url: process.env.POLYGONMAIN,
       accounts: [process.env.PRIVATE_KEY],
     },
-    polygon_test: {
-      url: process.env.POLYGONTEST,
+    sepolia_test: {
+      url: process.env.SEPOLIATEST,
       accounts: [process.env.PRIVATE_KEY_TEST],
     },
   },
